@@ -1,11 +1,10 @@
 export default class Component {
   element;
-  nameTag;
 
-  constructor(parentElement, nameTag, className) {
+  constructor(parentElement, className, nameTag) {
     this.element = document.createElement(nameTag);
     this.element.classList = className;
-    parentElement.appendChild(this.element);
+    parentElement.append(this.element);
 
     // this.generateHTML();
   }
