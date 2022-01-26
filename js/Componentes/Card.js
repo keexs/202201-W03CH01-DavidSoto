@@ -10,7 +10,7 @@ export default class Card extends Component {
     this.parentElement = parentElement;
     this.className = className;
 
-    this.img = img;
+    // this.img = document.createElement("img");
     this.talkButton = talkButton;
     this.deathButton = deathButton;
   }
